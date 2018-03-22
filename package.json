@@ -1,0 +1,5 @@
+{
+  "name": "travis-test",
+  "private": true,
+  "dependencies": {}
+}
