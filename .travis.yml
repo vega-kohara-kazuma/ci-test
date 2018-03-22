@@ -1,0 +1,10 @@
+sudo: requird
+language: ruby
+rvm:
+  - 2.5.0
+before_install:
+  # install
+  - echo "before install"
+install:
+  - echo "#### install ####"
+script: bundle exec rspec spec
